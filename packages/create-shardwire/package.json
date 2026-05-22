@@ -25,20 +25,20 @@
 		"prepublishOnly": "npm run build"
 	},
 	"dependencies": {
-		"@clack/prompts": "^1.2.0",
+		"@clack/prompts": "^1.4.0",
 		"picocolors": "^1.1.1",
-		"validate-npm-package-name": "^7.0.2"
+		"validate-npm-package-name": "^8.0.0"
 	},
 	"devDependencies": {
 		"@eslint/js": "^10.0.1",
-		"@types/node": "^25.6.0",
-		"eslint": "^10.2.1",
-		"globals": "^17.5.0",
+		"@types/node": "^25.9.1",
+		"eslint": "^10.4.0",
+		"globals": "^17.6.0",
 		"prettier": "^3.8.3",
 		"tsup": "^8.5.1",
 		"typescript": "^6.0.3",
-		"typescript-eslint": "^8.58.2",
-		"vitest": "^4.1.4"
+		"typescript-eslint": "^8.59.4",
+		"vitest": "^4.1.7"
 	},
 	"keywords": [
 		"shardwire",
