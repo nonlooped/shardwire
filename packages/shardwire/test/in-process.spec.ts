@@ -136,7 +136,7 @@ describe('in-process app bridge', () => {
 		const handler = ({ message }: { message: { id: string } }) => {
 			seen.push(message.id);
 		};
-		const unsub = app.on('messageCreate', handler as never, { channelId: 'c1' });
+		const unsub = app.on('messageCreate', handler, { channelId: 'c1' });
 		runtime.emit('messageCreate', {
 			receivedAt: Date.now(),
 			message: {
@@ -159,7 +159,7 @@ describe('in-process app bridge', () => {
 		});
 		expect(seen).toEqual(['m1']);
 
-		app.off('messageCreate', handler as never);
+		app.off('messageCreate', handler);
 		runtime.emit('messageCreate', {
 			receivedAt: Date.now(),
 			message: {
@@ -172,7 +172,7 @@ describe('in-process app bridge', () => {
 		});
 		expect(seen).toEqual(['m1']);
 
-		const second = app.on('messageCreate', handler as never);
+		const second = app.on('messageCreate', handler);
 		unsub();
 		second();
 		await app.close();
@@ -236,7 +236,7 @@ describe('in-process app bridge', () => {
 			capabilities: { events: ['ready', 'messageCreate'], actions: ['runRaw'] },
 		});
 
-		app.off('ready', (() => undefined) as never);
+		app.off('ready', () => undefined);
 		const h1 = (() => undefined) as never;
 		const h2 = (() => undefined) as never;
 		const unsub1 = app.on('ready', h1);
@@ -258,11 +258,11 @@ describe('in-process app bridge', () => {
 		unsub1();
 		unsub1();
 		unsub2();
-		const missingUnsub = app.on('messageCreate', (() => undefined) as never);
+		const missingUnsub = app.on('messageCreate', () => undefined);
 		missingUnsub();
-		app.off('messageCreate', (() => undefined) as never);
+		app.off('messageCreate', () => undefined);
 
-		expect(() => app.on('guildDelete', (() => undefined) as never)).toThrow(/not available/i);
+		expect(() => app.on('guildDelete', () => undefined)).toThrow(/not available/i);
 		await app.close();
 
 		const afterClose = await app.raw('guilds.fetch', ['x']);

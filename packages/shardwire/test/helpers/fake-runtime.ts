@@ -44,9 +44,7 @@ export class FakeDiscordRuntime implements DiscordRuntimeAdapter {
 		if (existing) {
 			existing.add(handler);
 		} else {
-			this.eventHandlers[name] = new Set([
-				handler as never as (payload: BotEventPayloadMap[BotEventName]) => void,
-			]) as EventHandlers[K];
+			this.eventHandlers[name] = new Set([handler as never]);
 		}
 		return () => {
 			const current = this.eventHandlers[name] as Set<(payload: BotEventPayloadMap[K]) => void> | undefined;
@@ -62,7 +60,7 @@ export class FakeDiscordRuntime implements DiscordRuntimeAdapter {
 		if (!handler) {
 			throw new Error(`No fake action handler registered for "${name}".`);
 		}
-		return handler(payload as never) as Promise<BotActionResultDataMap[K]>;
+		return handler(payload as never);
 	}
 
 	getClient(): unknown {

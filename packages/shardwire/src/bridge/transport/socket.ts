@@ -76,13 +76,13 @@ class StandardWebSocketAdapter implements WebSocketLike {
 				this.openListeners.add(listener as () => void);
 				break;
 			case 'message':
-				this.messageListeners.add(listener as (data: unknown) => void);
+				this.messageListeners.add(listener);
 				break;
 			case 'close':
 				this.closeListeners.add(listener as () => void);
 				break;
 			case 'error':
-				this.errorListeners.add(listener as (error: unknown) => void);
+				this.errorListeners.add(listener);
 				break;
 			default:
 				break;

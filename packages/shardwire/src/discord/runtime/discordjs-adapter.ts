@@ -1114,7 +1114,7 @@ export class DiscordJsRuntimeAdapter implements DiscordRuntimeAdapter {
 			...(payload.topic !== undefined ? { topic: payload.topic } : {}),
 			...(payload.reason ? { reason: payload.reason } : {}),
 		} as never);
-		return serializeChannel(edited as Channel);
+		return serializeChannel(edited);
 	}
 
 	private async deleteChannel(payload: BotActionPayloadMap['deleteChannel']) {
@@ -1234,7 +1234,7 @@ export class DiscordJsRuntimeAdapter implements DiscordRuntimeAdapter {
 			);
 		}
 
-		let owner: unknown = this.client as unknown;
+		let owner: unknown = this.client;
 		let target: unknown = owner;
 		for (const part of parts) {
 			if (!target || (typeof target !== 'object' && typeof target !== 'function')) {
