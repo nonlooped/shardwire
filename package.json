@@ -10,6 +10,17 @@
 		"packages/*",
 		"apps/*"
 	],
+	"overrides": {
+		"postcss": ">=8.5.10",
+		"next": {
+			"postcss": "8.5.10"
+		},
+		"brace-expansion": ">=5.0.6",
+		"fast-uri": ">=3.1.2",
+		"ws": ">=8.20.1",
+		"mermaid": ">=11.15.0",
+		"uuid": ">=11.1.1"
+	},
 	"scripts": {
 		"build": "npm run -w shardwire build && npm run -w @shardwire/react build && npm run -w website build",
 		"verify": "npm run -w shardwire verify && npm run -w @shardwire/react typecheck && npm run -w @shardwire/react test && npm run -w @shardwire/react build && npm run -w create-shardwire verify && npm run -w website build",
