@@ -5,10 +5,10 @@
 	"homepage": "https://shardwire.js.org/",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/unloopedmido/shardwire.git"
+		"url": "git+https://github.com/nonlooped/shardwire.git"
 	},
 	"bugs": {
-		"url": "https://github.com/unloopedmido/shardwire/issues",
+		"url": "https://github.com/nonlooped/shardwire/issues",
 		"email": "cored.developments@gmail.com"
 	},
 	"main": "./dist/index.js",

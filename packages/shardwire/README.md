@@ -6,7 +6,7 @@
 
 [![npm](https://img.shields.io/npm/v/shardwire?logo=npm&color=cb3837&style=flat-square)](https://www.npmjs.com/package/shardwire)
 [![npm downloads](https://img.shields.io/npm/dm/shardwire?logo=npm&color=cb3837&style=flat-square)](https://www.npmjs.com/package/shardwire)
-[![License: MIT](https://img.shields.io/npm/l/shardwire?style=flat-square&label=license)](https://github.com/unloopedmido/shardwire/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/npm/l/shardwire?style=flat-square&label=license)](https://github.com/nonlooped/shardwire/blob/main/LICENSE)
 [![Node](https://img.shields.io/node/v/shardwire?style=flat-square&logo=node.js&label=node)](https://nodejs.org/)
 
 <br />
@@ -122,7 +122,7 @@ For unsupported Discord surface, enable raw passthrough (`raw.enabled`) and call
 
 ## Contributing
 
-Issues and PRs: [github.com/unloopedmido/shardwire](https://github.com/unloopedmido/shardwire) (monorepo). Run package verification from `packages/shardwire` with `npm run verify`.
+Issues and PRs: [github.com/nonlooped/shardwire](https://github.com/nonlooped/shardwire) (monorepo). Run package verification from `packages/shardwire` with `npm run verify`.
 
 ## License
 

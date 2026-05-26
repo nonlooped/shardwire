@@ -8,7 +8,7 @@
 [![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)](https://nextjs.org/)
 [![Fumadocs](https://img.shields.io/badge/Fumadocs-171717?style=flat-square)](https://fumadocs.dev/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-326ce5?style=flat-square)](./LICENSE)
-[![CI](https://img.shields.io/github/actions/workflow/status/unloopedmido/shardwire/ci.yml?branch=main&logo=github&label=ci&style=flat-square)](https://github.com/unloopedmido/shardwire/actions/workflows/ci.yml)
+[![CI](https://img.shields.io/github/actions/workflow/status/nonlooped/shardwire/ci.yml?branch=main&logo=github&label=ci&style=flat-square)](https://github.com/nonlooped/shardwire/actions/workflows/ci.yml)
 
 </div>
 
@@ -100,7 +100,7 @@ Next.js hosts the UI; Fumadocs provides navigation, search, and MDX processing; 
 
 ## Contributing
 
-Use the main [GitHub repository](https://github.com/unloopedmido/shardwire). Doc-only PRs should still run `npm run docs:build` from the root when reference generation is involved.
+Use the main [GitHub repository](https://github.com/nonlooped/shardwire). Doc-only PRs should still run `npm run docs:build` from the root when reference generation is involved.
 
 ## License
 

@@ -6,7 +6,7 @@
 
 [![npm](https://img.shields.io/npm/v/create-shardwire?logo=npm&color=cb3837&style=flat-square)](https://www.npmjs.com/package/create-shardwire)
 [![npm downloads](https://img.shields.io/npm/dm/create-shardwire?logo=npm&color=cb3837&style=flat-square)](https://www.npmjs.com/package/create-shardwire)
-[![License: MIT](https://img.shields.io/npm/l/create-shardwire?style=flat-square&label=license)](https://github.com/unloopedmido/shardwire/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/npm/l/create-shardwire?style=flat-square&label=license)](https://github.com/nonlooped/shardwire/blob/main/LICENSE)
 [![Node](https://img.shields.io/node/v/create-shardwire?style=flat-square&logo=node.js&label=node)](https://nodejs.org/)
 
 <br />

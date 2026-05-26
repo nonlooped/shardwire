@@ -50,7 +50,7 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/unloopedmido/shardwire.git",
+		"url": "git+https://github.com/nonlooped/shardwire.git",
 		"directory": "packages/create-shardwire"
 	}
 }

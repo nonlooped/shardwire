@@ -5,7 +5,7 @@
 	"homepage": "https://shardwire.js.org/",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/unloopedmido/shardwire.git",
+		"url": "git+https://github.com/nonlooped/shardwire.git",
 		"directory": "packages/react"
 	},
 	"license": "MIT",

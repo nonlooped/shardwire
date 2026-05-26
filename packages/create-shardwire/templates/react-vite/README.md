@@ -94,7 +94,7 @@ Ship the **static build** (`npm run build`) to a CDN or static host and keep the
 
 ## Contributing
 
-Template changes belong in the upstream [`create-shardwire` package](https://github.com/unloopedmido/shardwire/tree/main/packages/create-shardwire).
+Template changes belong in the upstream [`create-shardwire` package](https://github.com/nonlooped/shardwire/tree/main/packages/create-shardwire).
 
 ## License
 

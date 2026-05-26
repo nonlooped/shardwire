@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: 'Shardwire',
   description: 'Discord-first bridge for splitting gateway runtime from app logic.',
-  githubUrl: 'https://github.com/unloopedmido/shardwire',
+  githubUrl: 'https://github.com/nonlooped/shardwire',
   npmUrl: 'https://www.npmjs.com/package/shardwire',
   docsUrl: 'https://shardwire.js.org/',
 };

@@ -9,11 +9,11 @@
 [![npm: create-shardwire](https://img.shields.io/npm/v/create-shardwire?label=create-shardwire&logo=npm&color=cb3837&style=flat-square)](https://www.npmjs.com/package/create-shardwire)
 [![License: MIT](https://img.shields.io/badge/license-MIT-326ce5?style=flat-square)](./LICENSE)
 [![Node](https://img.shields.io/badge/node-%E2%89%A522-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
-[![CI](https://img.shields.io/github/actions/workflow/status/unloopedmido/shardwire/ci.yml?branch=main&logo=github&label=ci&style=flat-square)](https://github.com/unloopedmido/shardwire/actions/workflows/ci.yml)
+[![CI](https://img.shields.io/github/actions/workflow/status/nonlooped/shardwire/ci.yml?branch=main&logo=github&label=ci&style=flat-square)](https://github.com/nonlooped/shardwire/actions/workflows/ci.yml)
 
 <br />
 
-[Documentation](https://shardwire.js.org/docs/) · [API reference](https://shardwire.js.org/docs/reference/) · [Issues](https://github.com/unloopedmido/shardwire/issues)
+[Documentation](https://shardwire.js.org/docs/) · [API reference](https://shardwire.js.org/docs/reference/) · [Issues](https://github.com/nonlooped/shardwire/issues)
 
 </div>
 
@@ -99,7 +99,7 @@ Scaffold templates live under [`packages/create-shardwire/templates/`](packages/
 ## Getting Started
 
 1. **Skim concepts** — [How it works](https://shardwire.js.org/docs/concepts/how-it-works/) (bot vs app, secrets, capabilities).
-2. **Scaffold** — `npm create shardwire@latest` (**Express Server** or **React App**). Template sources: [express-server](https://github.com/unloopedmido/shardwire/tree/main/packages/create-shardwire/templates/express-server), [react-vite](https://github.com/unloopedmido/shardwire/tree/main/packages/create-shardwire/templates/react-vite).
+2. **Scaffold** — `npm create shardwire@latest` (**Express Server** or **React App**). Template sources: [express-server](https://github.com/nonlooped/shardwire/tree/main/packages/create-shardwire/templates/express-server), [react-vite](https://github.com/nonlooped/shardwire/tree/main/packages/create-shardwire/templates/react-vite).
 3. **Configure environment** — `.env` with Discord credentials and the secret layout your template expects: `SHARDWIRE_SECRET` for the Express/Node app path, or `SHARDWIRE_BROWSER_SECRET` plus matching `VITE_*` values for the browser dashboard path.
 4. **Register commands** (if your template uses slash commands) — `npm run register` in the generated project.
 5. **Run bot and app** — two processes in development; production layout is your choice (see [Keeping it alive](https://shardwire.js.org/docs/guides/keeping-it-alive/)).
@@ -138,7 +138,7 @@ Source of truth for APIs and guides is the published documentation, not this fil
 
 This monorepo is **MIT** licensed (`LICENSE` at the root; `packages/shardwire` ships its own copy for npm).
 
-Contributions: open an issue or PR on [GitHub](https://github.com/unloopedmido/shardwire). Run `npm run verify` before submitting substantive changes.
+Contributions: open an issue or PR on [GitHub](https://github.com/nonlooped/shardwire). Run `npm run verify` before submitting substantive changes.
 
 </details>
 

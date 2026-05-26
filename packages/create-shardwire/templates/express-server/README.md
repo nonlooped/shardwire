@@ -97,7 +97,7 @@ Requires **Node.js 22+** (see `engines` in `package.json`).
 
 ## Contributing
 
-This file ships inside **`create-shardwire` templates**. Improve it by sending a pull request to the [Shardwire repository](https://github.com/unloopedmido/shardwire) rather than editing generated copies only locally.
+This file ships inside **`create-shardwire` templates**. Improve it by sending a pull request to the [Shardwire repository](https://github.com/nonlooped/shardwire) rather than editing generated copies only locally.
 
 ## License
 

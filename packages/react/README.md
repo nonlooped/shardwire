@@ -6,7 +6,7 @@
 
 [![npm](https://img.shields.io/npm/v/%40shardwire%2Freact?logo=npm&color=cb3837&style=flat-square)](https://www.npmjs.com/package/@shardwire/react)
 [![npm downloads](https://img.shields.io/npm/dm/%40shardwire%2Freact?logo=npm&color=cb3837&style=flat-square)](https://www.npmjs.com/package/@shardwire/react)
-[![License: MIT](https://img.shields.io/npm/l/%40shardwire%2Freact?style=flat-square&label=license)](https://github.com/unloopedmido/shardwire/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/npm/l/%40shardwire%2Freact?style=flat-square&label=license)](https://github.com/nonlooped/shardwire/blob/main/LICENSE)
 [![Node](https://img.shields.io/node/v/%40shardwire%2Freact?style=flat-square&logo=node.js&label=node)](https://nodejs.org/)
 [![React peer](https://img.shields.io/badge/react-%E2%89%A518-61dafb?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
 
@@ -133,7 +133,7 @@ See the [React cookbook](https://shardwire.js.org/docs/guides/react-cookbook/) f
 
 ## Contributing
 
-Repository: [github.com/unloopedmido/shardwire](https://github.com/unloopedmido/shardwire) (`packages/react`). Run `npm test` and `npm run typecheck` in this workspace package.
+Repository: [github.com/nonlooped/shardwire](https://github.com/nonlooped/shardwire) (`packages/react`). Run `npm test` and `npm run typecheck` in this workspace package.
 
 ## License
 
