@@ -59,7 +59,7 @@
 		"node": ">=18.0.0"
 	},
 	"dependencies": {
-		"discord-api-types": "^0.38.47",
+		"discord-api-types": "^0.38.49",
 		"discord.js": "^14.26.3",
 		"ws": "^8.20.1"
 	},
