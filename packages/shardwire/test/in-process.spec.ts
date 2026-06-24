@@ -236,7 +236,7 @@ describe('in-process app bridge', () => {
 			capabilities: { events: ['ready', 'messageCreate'], actions: ['runRaw'] },
 		});
 
-		app.off('ready', (() => undefined));
+		app.off('ready', () => undefined);
 		const h1 = (() => undefined) as never;
 		const h2 = (() => undefined) as never;
 		const unsub1 = app.on('ready', h1);
@@ -258,11 +258,11 @@ describe('in-process app bridge', () => {
 		unsub1();
 		unsub1();
 		unsub2();
-		const missingUnsub = app.on('messageCreate', (() => undefined));
+		const missingUnsub = app.on('messageCreate', () => undefined);
 		missingUnsub();
-		app.off('messageCreate', (() => undefined));
+		app.off('messageCreate', () => undefined);
 
-		expect(() => app.on('guildDelete', (() => undefined))).toThrow(/not available/i);
+		expect(() => app.on('guildDelete', () => undefined)).toThrow(/not available/i);
 		await app.close();
 
 		const afterClose = await app.raw('guilds.fetch', ['x']);
