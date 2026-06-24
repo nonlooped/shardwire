@@ -59,23 +59,23 @@
 		"node": ">=18.0.0"
 	},
 	"dependencies": {
-		"discord-api-types": "^0.38.47",
-		"discord.js": "^14.26.3",
-		"ws": "^8.20.1"
+		"discord-api-types": "^0.38.49",
+		"discord.js": "^14.26.4",
+		"ws": "^8.21.0"
 	},
 	"devDependencies": {
 		"@eslint/js": "^10.0.1",
-		"@types/node": "^25.6.0",
+		"@types/node": "^26.0.0",
 		"@types/ws": "^8.18.1",
-		"@vitest/coverage-v8": "^4.1.4",
-		"eslint": "^10.2.1",
-		"globals": "^17.5.0",
-		"prettier": "^3.8.3",
+		"@vitest/coverage-v8": "^4.1.9",
+		"eslint": "^10.5.0",
+		"globals": "^17.7.0",
+		"prettier": "^3.8.4",
 		"tsup": "^8.5.1",
-		"tsx": "^4.21.0",
+		"tsx": "^4.22.4",
 		"typescript": "^6.0.3",
-		"typescript-eslint": "^8.58.2",
-		"vitest": "^4.1.4"
+		"typescript-eslint": "^8.62.0",
+		"vitest": "^4.1.9"
 	},
 	"publishConfig": {
 		"access": "public"
