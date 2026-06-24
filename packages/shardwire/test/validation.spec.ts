@@ -179,7 +179,7 @@ describe('discord-first bridge validation', () => {
 			connectBotBridge({
 				url: 'http://example.com',
 				secret: '',
-			} as never),
+			}),
 		).toThrow(/url|secret/i);
 	});
 
@@ -655,7 +655,7 @@ describe('discord-first bridge validation', () => {
 		});
 
 		await bot.ready();
-		await expect(app.ready({ strict: true } as never)).rejects.toThrow(/requires `manifest`/);
+		await expect(app.ready({ strict: true })).rejects.toThrow(/requires `manifest`/);
 
 		await app.close();
 		await bot.close();
